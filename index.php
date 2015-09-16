@@ -12,7 +12,7 @@
     <title>Apache + PHP running on Docker in Azure</title>
   <body>
 <section>
-  <img src="https://raw.githubusercontent.com/starkfell/azure-quickstart-templates/master/deploy_apache_on_docker/deploy_apache_on_docker/Scripts/ARM_template_formula.jpg">
+  <img src="https://raw.githubusercontent.com/starkfell/apache-php/master/ARM_template_formula.jpg">
 </section>
 
 <?php /* Yes the formatting of the image and the use of '<br>' tags below is ghetto, but honey badger don't care as this is for demo purposes only. */ ?>

@@ -28,7 +28,7 @@ ENV APACHE_LOG_DIR /var/log/apache2
 RUN sed -i -e "/\<Directory \/var\/www\/>/a \\\tDirectoryIndex index.php" /etc/apache2/apache2.conf
 
 # Adding index.php file to Web Root
-ADD ["https://raw.githubusercontent.com/starkfell/azure-quickstart-templates/master/deploy_apache_on_docker/deploy_apache_on_docker/Scripts/index.php","/var/www/html/"]
+ADD ["https://raw.githubusercontent.com/starkfell/apache-php/master/index.php","/var/www/html/"]
 
 # Changing permissions on index.php file so it will display.
 RUN chmod 775 /var/www/html/index.php
