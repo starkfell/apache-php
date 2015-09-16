@@ -7,4 +7,4 @@ Use the following command below to run in Docker
 
 Use the following command to attach run commands within the Container after it is running
 
-`docker exec -ti <CONTAINER_ID> /bin/bash-php`
+`docker exec -ti <CONTAINER_ID> /bin/bash`
